@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#c3dfe0">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Chefn't</title>
+</head>
+<body>
+  <main id="app">
+
+    <section class="view" id="view-home" aria-labelledby="home-title">
+      <h1 id="home-title">¿Qué tienes en casa?</h1>
+      <ul id="ingredient-list"></ul>
+      <button id="btn-search" type="button">Ver recetas</button>
+    </section>
+
+    <section class="view" id="view-results" hidden aria-labelledby="results-title">
+      <header>
+        <button type="button" data-action="back" aria-label="Volver">←</button>
+        <h2 id="results-title">Recetas para ti</h2>
+      </header>
+      <ul id="recipe-list"></ul>
+    </section>
+
+    <section class="view" id="view-recipe" hidden aria-labelledby="recipe-title">
+      <header>
+        <button type="button" data-action="back" aria-label="Volver">←</button>
+        <h2 id="recipe-title"></h2>
+      </header>
+      <div id="recipe-detail"></div>
+    </section>
+
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
