@@ -1,36 +1,83 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#c3dfe0">
+  <meta name="theme-color" content="#080f0f">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="./styles.css">
-  <title>Chefn't</title>
+  <title>Chef'nt</title>
 </head>
-<body>
+<body data-view="splash">
+
+  <header class="app-header">
+    <img src="./assets/logo.svg" alt="Chef'nt" width="136" height="108">
+  </header>
+
   <main id="app">
 
-    <section class="view" id="view-home" aria-labelledby="home-title">
-      <h1 id="home-title">¿Qué tienes en casa?</h1>
-      <ul id="ingredient-list"></ul>
-      <button id="btn-search" type="button">Ver recetas</button>
+    <!-- 1. Splash -->
+    <section class="view" id="view-splash" aria-label="Chef'nt">
+      <img src="./assets/logo.svg" alt="" class="splash-logo" width="272" height="216">
     </section>
 
-    <section class="view" id="view-results" hidden aria-labelledby="results-title">
-      <header>
-        <button type="button" data-action="back" aria-label="Volver">←</button>
-        <h2 id="results-title">Recetas para ti</h2>
-      </header>
-      <ul id="recipe-list"></ul>
+    <!-- 2. Home -->
+    <section class="view" id="view-home" hidden aria-labelledby="home-title">
+      <h1 id="home-title">What are we cooking today?</h1>
+      <button type="button" class="fridge" id="btn-fridge" aria-label="Open the fridge and pick ingredients">
+        <img src="./assets/fridge.webp" alt="" width="200" height="260">
+      </button>
     </section>
 
+    <!-- 3. Selección de ingredientes -->
+    <section class="view" id="view-ingredients" hidden aria-labelledby="ingredients-title">
+      <h2 id="ingredients-title">Selecting ingredients...</h2>
+      <img src="./assets/fridge.webp" alt="" class="fridge fridge--small" width="130" height="170">
+      <ul class="ingredient-grid" id="ingredient-grid">
+        <!-- JS genera: <li><button aria-pressed="true"><img ...><span class="sr-only">Egg</span></button></li> -->
+      </ul>
+      <button type="button" id="btn-search" hidden>Find recipes</button>
+    </section>
+
+    <!-- 4. Cargando -->
+    <section class="view" id="view-loading" hidden aria-live="polite">
+      <div class="loading-art">
+        <img src="./assets/cutting-board.webp" alt="" width="160" height="160">
+        <img src="./assets/pan.webp" alt="" width="160" height="100">
+        <img src="./assets/mixer.webp" alt="" width="140" height="140">
+      </div>
+      <p>Perfect, we’re searching recipes with those selected ingredients...</p>
+    </section>
+
+    <!-- 5. Carrusel de recetas -->
+    <section class="view" id="view-results" hidden aria-labelledby="summary-title">
+      <button type="button" class="btn-back" data-action="back" aria-label="Go back">
+        <img src="./assets/icons/arrow-back.webp" alt="" width="48" height="48">
+      </button>
+      <ul class="carousel" id="recipe-carousel">
+        <!-- JS genera: <li><button data-id="omelette"><img ...></button></li> -->
+      </ul>
+      <div class="dots" id="carousel-dots" aria-hidden="true"></div>
+      <article class="recipe-summary" aria-live="polite">
+        <h2 id="summary-title"></h2>
+        <p id="summary-desc"></p>
+        <ul class="meta">
+          <li><img src="./assets/icons/difficulty.webp" alt="" width="40" height="40"><span id="summary-difficulty"></span></li>
+          <li><img src="./assets/icons/timer.webp" alt="" width="40" height="40"><span id="summary-time"></span></li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- 6. Detalle de receta -->
     <section class="view" id="view-recipe" hidden aria-labelledby="recipe-title">
-      <header>
-        <button type="button" data-action="back" aria-label="Volver">←</button>
-        <h2 id="recipe-title"></h2>
-      </header>
-      <div id="recipe-detail"></div>
+      <button type="button" class="btn-back" data-action="back" aria-label="Go back">
+        <img src="./assets/icons/arrow-back.webp" alt="" width="48" height="48">
+      </button>
+      <img id="recipe-image" class="recipe-hero" alt="" width="342" height="342">
+      <h2 id="recipe-title"></h2>
+      <ol class="steps" id="recipe-steps">
+        <!-- JS genera: <li><strong>Beat the eggs</strong><p>Crack 2–3 eggs...</p></li> -->
+      </ol>
     </section>
 
   </main>

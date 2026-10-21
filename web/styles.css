@@ -10,8 +10,8 @@
   --pink: #ffa5ab;
 
   /* Semánticos (ajústalos a tus alias de Figma) */
-  --color-bg: var(--cyan);
-  --color-text: var(--black-green);
+  --color-bg: var(--black-green);
+  --color-text: var(--cyan);
   --color-accent: var(--yellow);
   --color-accent-secondary: var(--pink);
   --color-danger: var(--red);

@@ -1,240 +1,195 @@
+
 [
   {
-    "id": 1,
-    "nombre": "Huevos fritos",
-    "ingredientes": [
-      "2 huevos",
-      "1 cucharada de aceite",
-      "Sal al gusto"
-    ],
-    "pasos": [
-      "Calentar el aceite en una sartén a fuego medio.",
-      "Cascar los huevos y colocarlos en la sartén.",
-      "Cocinar hasta que la clara esté firme y la yema al punto deseado.",
-      "Agregar sal al gusto y servir."
-    ],
-    "tiempo": 5
+    "id": "huevos-fritos",
+    "name": "Huevos fritos",
+    "description": "Eggs fried in oil until the whites are set and the yolks reach the desired consistency.",
+    "difficulty": "Easy",
+    "minutes": 5,
+    "image": "assets/recipes/huevos-fritos.webp",
+    "ingredients": ["2 eggs", "1 tablespoon oil", "salt"],
+    "steps": [
+      { "title": "Heat the oil", "text": "Heat the oil in a skillet over medium heat." },
+      { "title": "Fry the eggs", "text": "Crack the eggs into the skillet and cook until the whites are set." },
+      { "title": "Season and serve", "text": "Add salt to taste and serve immediately." }
+    ]
   },
   {
-    "id": 2,
-    "nombre": "Omelette",
-    "ingredientes": [
-      "2 huevos",
-      "2 cucharadas de leche",
-      "30 g de queso rallado",
-      "1 cucharada de aceite o mantequilla",
-      "Sal y pimienta al gusto"
-    ],
-    "pasos": [
-      "Batir los huevos con la leche, la sal y la pimienta.",
-      "Calentar el aceite o la mantequilla en una sartén.",
-      "Verter la mezcla de huevos y cocinar a fuego medio-bajo.",
-      "Agregar el queso cuando los huevos comiencen a cuajar.",
-      "Doblar el omelette por la mitad y cocinar hasta que esté listo."
-    ],
-    "tiempo": 10
+    "id": "omelette",
+    "name": "Omelette",
+    "description": "A dish made with beaten eggs cooked in a skillet and folded around melted cheese.",
+    "difficulty": "Medium",
+    "minutes": 10,
+    "image": "assets/recipes/omelette.webp",
+    "ingredients": ["2 eggs", "2 tablespoons milk", "30 g grated cheese", "1 tablespoon butter", "salt", "pepper"],
+    "steps": [
+      { "title": "Beat the eggs", "text": "Beat the eggs with milk, salt, and pepper in a bowl." },
+      { "title": "Heat the skillet", "text": "Melt the butter in a nonstick skillet over medium-low heat." },
+      { "title": "Cook the eggs", "text": "Pour the egg mixture into the skillet and cook until the edges begin to set." },
+      { "title": "Add the cheese", "text": "Sprinkle the grated cheese over one half of the omelette." },
+      { "title": "Fold and serve", "text": "Fold the omelette in half and cook until the eggs are fully set and the cheese melts." }
+    ]
   },
   {
-    "id": 3,
-    "nombre": "Huevo picado o revuelto",
-    "ingredientes": [
-      "2 huevos",
-      "1 cucharada de aceite o mantequilla",
-      "2 cucharadas de cebolla picada",
-      "2 cucharadas de chile dulce picado",
-      "Sal al gusto"
-    ],
-    "pasos": [
-      "Picar la cebolla y el chile dulce.",
-      "Calentar el aceite en una sartén y sofreír los vegetales.",
-      "Batir los huevos con una pizca de sal.",
-      "Agregar los huevos a la sartén y revolver suavemente.",
-      "Cocinar hasta que los huevos estén completamente cuajados."
-    ],
-    "tiempo": 10
+    "id": "huevos-revueltos",
+    "name": "Huevo picado o revuelto",
+    "description": "Scrambled eggs cooked with onion and sweet pepper for a simple, flavorful breakfast.",
+    "difficulty": "Easy",
+    "minutes": 10,
+    "image": "assets/recipes/huevos-revueltos.webp",
+    "ingredients": ["2 eggs", "1 tablespoon oil", "2 tablespoons chopped onion", "2 tablespoons chopped sweet pepper", "salt"],
+    "steps": [
+      { "title": "Prepare the vegetables", "text": "Finely chop the onion and sweet pepper." },
+      { "title": "Sauté the vegetables", "text": "Heat the oil in a skillet and cook the vegetables until softened." },
+      { "title": "Beat the eggs", "text": "Beat the eggs with a pinch of salt in a bowl." },
+      { "title": "Scramble the eggs", "text": "Pour the eggs into the skillet and stir gently until fully cooked." },
+      { "title": "Serve", "text": "Remove from the heat and serve warm." }
+    ]
   },
   {
-    "id": 4,
-    "nombre": "Tostadas francesas",
-    "ingredientes": [
-      "4 rebanadas de pan",
-      "2 huevos",
-      "60 ml de leche",
-      "1 cucharadita de azúcar",
-      "1/2 cucharadita de canela",
-      "1 cucharada de mantequilla"
-    ],
-    "pasos": [
-      "Batir los huevos con la leche, el azúcar y la canela.",
-      "Sumergir cada rebanada de pan en la mezcla.",
-      "Derretir la mantequilla en una sartén a fuego medio.",
-      "Dorar las rebanadas por ambos lados.",
-      "Servir con frutas, miel o sirope al gusto."
-    ],
-    "tiempo": 15
+    "id": "tostadas-francesas",
+    "name": "Tostadas francesas",
+    "description": "Slices of bread dipped in a sweet egg and milk mixture, then cooked until golden brown.",
+    "difficulty": "Easy",
+    "minutes": 15,
+    "image": "assets/recipes/tostadas-francesas.webp",
+    "ingredients": ["4 slices of bread", "2 eggs", "60 ml milk", "1 teaspoon sugar", "1/2 teaspoon cinnamon", "1 tablespoon butter"],
+    "steps": [
+      { "title": "Prepare the mixture", "text": "Whisk the eggs, milk, sugar, and cinnamon in a shallow bowl." },
+      { "title": "Dip the bread", "text": "Dip each slice of bread into the mixture, coating both sides." },
+      { "title": "Heat the skillet", "text": "Melt the butter in a skillet over medium heat." },
+      { "title": "Cook the toast", "text": "Cook each slice until golden brown on both sides and cooked through." },
+      { "title": "Serve", "text": "Serve warm with fruit, honey, or syrup if desired." }
+    ]
   },
   {
-    "id": 5,
-    "nombre": "Panqueques",
-    "ingredientes": [
-      "1 taza de harina",
-      "1 huevo",
-      "3/4 de taza de leche",
-      "1 cucharada de azúcar",
-      "1 cucharadita de polvo de hornear",
-      "1 cucharada de mantequilla derretida",
-      "1 pizca de sal"
-    ],
-    "pasos": [
-      "Mezclar la harina, el azúcar, el polvo de hornear y la sal.",
-      "Agregar el huevo, la leche y la mantequilla derretida.",
-      "Mezclar hasta obtener una masa homogénea.",
-      "Calentar una sartén ligeramente engrasada.",
-      "Verter pequeñas porciones de masa y cocinar hasta que aparezcan burbujas.",
-      "Voltear y cocinar el otro lado hasta dorar."
-    ],
-    "tiempo": 20
+    "id": "panqueques",
+    "name": "Panqueques",
+    "description": "Fluffy pancakes made from a simple batter of flour, milk, and eggs, cooked until golden.",
+    "difficulty": "Easy",
+    "minutes": 20,
+    "image": "assets/recipes/panqueques.webp",
+    "ingredients": ["1 cup flour", "1 egg", "3/4 cup milk", "1 tablespoon sugar", "1 teaspoon baking powder", "1 tablespoon melted butter", "1 pinch salt"],
+    "steps": [
+      { "title": "Mix the dry ingredients", "text": "Combine the flour, sugar, baking powder, and salt in a bowl." },
+      { "title": "Add the wet ingredients", "text": "Add the egg, milk, and melted butter. Mix until combined." },
+      { "title": "Heat the skillet", "text": "Lightly grease a skillet and heat it over medium heat." },
+      { "title": "Cook the pancakes", "text": "Pour small portions of batter into the skillet. Cook until bubbles form on the surface." },
+      { "title": "Flip and finish", "text": "Flip each pancake and cook until the other side is golden brown." }
+    ]
   },
   {
-    "id": 6,
-    "nombre": "Sándwich de desayuno",
-    "ingredientes": [
-      "2 rebanadas de pan",
-      "1 huevo",
-      "1 rebanada de queso",
-      "2 rebanadas de jamón",
-      "1 cucharadita de mantequilla",
-      "Sal y pimienta al gusto"
-    ],
-    "pasos": [
-      "Calentar una sartén y cocinar el huevo al gusto.",
-      "Dorar ligeramente las rebanadas de pan.",
-      "Colocar el queso, el jamón y el huevo sobre una rebanada.",
-      "Cerrar el sándwich con la otra rebanada de pan.",
-      "Calentar brevemente para derretir el queso y servir."
-    ],
-    "tiempo": 10
+    "id": "sandwich-desayuno",
+    "name": "Sándwich de desayuno",
+    "description": "A toasted sandwich filled with egg, cheese, and ham for a quick and satisfying breakfast.",
+    "difficulty": "Easy",
+    "minutes": 10,
+    "image": "assets/recipes/sandwich-desayuno.webp",
+    "ingredients": ["2 slices of bread", "1 egg", "1 slice of cheese", "2 slices of ham", "1 teaspoon butter", "salt", "pepper"],
+    "steps": [
+      { "title": "Cook the egg", "text": "Heat a skillet and cook the egg to your preferred doneness." },
+      { "title": "Toast the bread", "text": "Lightly butter the bread and toast both slices until golden." },
+      { "title": "Assemble the sandwich", "text": "Place the cheese, ham, and cooked egg on one slice of bread." },
+      { "title": "Melt the cheese", "text": "Close the sandwich and heat briefly until the cheese begins to melt." },
+      { "title": "Serve", "text": "Cut in half and serve while warm." }
+    ]
   },
   {
-    "id": 7,
-    "nombre": "Gallo pinto",
-    "ingredientes": [
-      "1 taza de arroz cocido",
-      "1 taza de frijoles negros cocidos con un poco de caldo",
-      "1/4 de cebolla picada",
-      "1/4 de chile dulce picado",
-      "1 cucharada de aceite",
-      "1 cucharada de culantro picado",
-      "Salsa Lizano al gusto"
-    ],
-    "pasos": [
-      "Calentar el aceite en una sartén.",
-      "Sofreír la cebolla y el chile dulce hasta que estén suaves.",
-      "Agregar los frijoles con un poco de su caldo y mezclar.",
-      "Incorporar el arroz y revolver hasta integrar los ingredientes.",
-      "Agregar salsa Lizano y cocinar durante unos minutos.",
-      "Añadir el culantro picado y servir caliente."
-    ],
-    "tiempo": 15
+    "id": "gallo-pinto",
+    "name": "Gallo pinto",
+    "description": "A traditional Costa Rican breakfast made with rice, black beans, onion, sweet pepper, and cilantro.",
+    "difficulty": "Easy",
+    "minutes": 15,
+    "image": "assets/recipes/gallo-pinto.webp",
+    "ingredients": ["1 cup cooked rice", "1 cup cooked black beans with a little broth", "1/4 onion", "1/4 sweet pepper", "1 tablespoon oil", "1 tablespoon chopped cilantro", "Lizano sauce to taste"],
+    "steps": [
+      { "title": "Chop the vegetables", "text": "Finely chop the onion, sweet pepper, and cilantro." },
+      { "title": "Sauté the vegetables", "text": "Heat the oil in a skillet and cook the onion and sweet pepper until softened." },
+      { "title": "Add the beans", "text": "Add the black beans with a little broth and stir." },
+      { "title": "Add the rice", "text": "Add the cooked rice and mix thoroughly with the beans." },
+      { "title": "Season the pinto", "text": "Add Lizano sauce to taste and cook for a few minutes, stirring occasionally." },
+      { "title": "Finish and serve", "text": "Stir in the chopped cilantro and serve hot." }
+    ]
   },
   {
-    "id": 8,
-    "nombre": "Avena con frutos",
-    "ingredientes": [
-      "1/2 taza de avena",
-      "1 taza de leche o agua",
-      "1/2 banano en rodajas",
-      "1/4 de taza de fresas picadas",
-      "1 cucharadita de miel",
-      "Canela al gusto"
-    ],
-    "pasos": [
-      "Colocar la avena y la leche o el agua en una olla.",
-      "Cocinar a fuego medio durante 5 a 7 minutos, revolviendo ocasionalmente.",
-      "Retirar del fuego cuando alcance la consistencia deseada.",
-      "Agregar el banano, las fresas, la miel y la canela.",
-      "Servir caliente."
-    ],
-    "tiempo": 10
+    "id": "avena-con-frutas",
+    "name": "Avena con frutos",
+    "description": "Warm oatmeal topped with fresh fruit, honey, and cinnamon for a nutritious breakfast.",
+    "difficulty": "Easy",
+    "minutes": 10,
+    "image": "assets/recipes/avena-con-frutas.webp",
+    "ingredients": ["1/2 cup oats", "1 cup milk or water", "1/2 banana", "1/4 cup chopped strawberries", "1 teaspoon honey", "cinnamon to taste"],
+    "steps": [
+      { "title": "Cook the oats", "text": "Combine the oats and milk or water in a saucepan." },
+      { "title": "Simmer", "text": "Cook over medium heat for 5–7 minutes, stirring occasionally, until creamy." },
+      { "title": "Prepare the fruit", "text": "Slice the banana and chop the strawberries." },
+      { "title": "Add the toppings", "text": "Transfer the oatmeal to a bowl and top with the fruit, honey, and cinnamon." },
+      { "title": "Serve", "text": "Serve warm." }
+    ]
   },
   {
-    "id": 9,
-    "nombre": "Granola con yogurt",
-    "ingredientes": [
-      "1 taza de yogurt natural",
-      "1/2 taza de granola",
-      "1/2 banano en rodajas",
-      "1/4 de taza de fresas picadas",
-      "1 cucharadita de miel"
-    ],
-    "pasos": [
-      "Colocar el yogurt en un recipiente.",
-      "Agregar la granola sobre el yogurt.",
-      "Incorporar el banano y las fresas.",
-      "Añadir miel al gusto y servir inmediatamente."
-    ],
-    "tiempo": 5
+    "id": "granola-con-yogurt",
+    "name": "Granola con yogurt",
+    "description": "A refreshing breakfast bowl of creamy yogurt, crunchy granola, fresh fruit, and honey.",
+    "difficulty": "Easy",
+    "minutes": 5,
+    "image": "assets/recipes/granola-con-yogurt.webp",
+    "ingredients": ["1 cup plain yogurt", "1/2 cup granola", "1/2 banana", "1/4 cup chopped strawberries", "1 teaspoon honey"],
+    "steps": [
+      { "title": "Prepare the yogurt", "text": "Place the yogurt in a bowl." },
+      { "title": "Add the granola", "text": "Sprinkle the granola evenly over the yogurt." },
+      { "title": "Add the fruit", "text": "Slice the banana and add it with the chopped strawberries." },
+      { "title": "Finish and serve", "text": "Drizzle with honey and serve immediately to keep the granola crunchy." }
+    ]
   },
   {
-    "id": 10,
-    "nombre": "Tostadas de aguacate",
-    "ingredientes": [
-      "2 rebanadas de pan",
-      "1 aguacate maduro",
-      "1 cucharadita de jugo de limón",
-      "Sal y pimienta al gusto",
-      "1 cucharadita de aceite de oliva (opcional)"
-    ],
-    "pasos": [
-      "Tostar las rebanadas de pan.",
-      "Cortar el aguacate y retirar la pulpa.",
-      "Machacar el aguacate con el jugo de limón, la sal y la pimienta.",
-      "Distribuir la mezcla sobre las tostadas.",
-      "Agregar aceite de oliva si se desea y servir."
-    ],
-    "tiempo": 8
+    "id": "tostadas-aguacate",
+    "name": "Tostadas de aguacate",
+    "description": "Crispy toast topped with creamy mashed avocado, lemon juice, salt, and pepper.",
+    "difficulty": "Easy",
+    "minutes": 8,
+    "image": "assets/recipes/tostadas-aguacate.webp",
+    "ingredients": ["2 slices of bread", "1 ripe avocado", "1 teaspoon lemon juice", "salt", "pepper", "1 teaspoon olive oil (optional)"],
+    "steps": [
+      { "title": "Toast the bread", "text": "Toast the bread slices until golden and crisp." },
+      { "title": "Prepare the avocado", "text": "Cut the avocado in half, remove the pit, and scoop the flesh into a bowl." },
+      { "title": "Mash and season", "text": "Mash the avocado with lemon juice, salt, and pepper." },
+      { "title": "Assemble the toast", "text": "Spread the avocado mixture evenly over the toasted bread." },
+      { "title": "Serve", "text": "Drizzle with olive oil if desired and serve immediately." }
+    ]
   },
   {
-    "id": 11,
-    "nombre": "Chorreadas",
-    "ingredientes": [
-      "2 tazas de maíz dulce desgranado",
-      "1/4 de taza de harina",
-      "1 huevo",
-      "1/4 de taza de leche",
-      "1 cucharada de azúcar (opcional)",
-      "1 pizca de sal",
-      "Mantequilla o aceite para cocinar"
-    ],
-    "pasos": [
-      "Licuar el maíz con el huevo y la leche hasta obtener una mezcla espesa.",
-      "Agregar la harina, la sal y el azúcar si se desea.",
-      "Mezclar hasta integrar todos los ingredientes.",
-      "Calentar una sartén engrasada a fuego medio-bajo.",
-      "Verter porciones de la mezcla y cocinar hasta que los bordes estén firmes.",
-      "Voltear con cuidado y cocinar el otro lado hasta dorar.",
-      "Servir calientes, acompañadas de natilla o queso si se desea."
-    ],
-    "tiempo": 20
+    "id": "chorreadas",
+    "name": "Chorreadas",
+    "description": "Traditional Costa Rican sweet corn pancakes, soft inside and golden outside, often served with sour cream or cheese.",
+    "difficulty": "Medium",
+    "minutes": 20,
+    "image": "assets/recipes/chorreadas.webp",
+    "ingredients": ["2 cups sweet corn kernels", "1/4 cup flour", "1 egg", "1/4 cup milk", "1 tablespoon sugar (optional)", "1 pinch salt", "butter or oil for cooking"],
+    "steps": [
+      { "title": "Blend the corn", "text": "Blend the corn kernels with the egg and milk until you get a thick mixture." },
+      { "title": "Prepare the batter", "text": "Add the flour, salt, and optional sugar. Mix until combined." },
+      { "title": "Heat the skillet", "text": "Lightly grease a skillet and heat it over medium-low heat." },
+      { "title": "Cook the chorreadas", "text": "Pour a portion of batter into the skillet and cook until the edges become firm." },
+      { "title": "Flip and finish", "text": "Carefully flip the pancake and cook the other side until golden and cooked through." },
+      { "title": "Serve", "text": "Serve warm with sour cream or cheese if desired." }
+    ]
   },
   {
-    "id": 12,
-    "nombre": "Tortillas con queso",
-    "ingredientes": [
-      "1 taza de masa de maíz o harina de maíz para tortillas",
-      "3/4 de taza de agua tibia, aproximadamente",
-      "1/2 taza de queso rallado",
-      "1 pizca de sal",
-      "Aceite para engrasar la sartén"
-    ],
-    "pasos": [
-      "Mezclar la masa de maíz con la sal y el queso rallado.",
-      "Agregar el agua poco a poco hasta obtener una masa suave y manejable.",
-      "Formar pequeñas bolas y aplanarlas hasta darles forma de tortilla.",
-      "Calentar una sartén ligeramente engrasada a fuego medio.",
-      "Cocinar las tortillas por ambos lados hasta que estén doradas y bien cocidas.",
-      "Servir calientes."
-    ],
-    "tiempo": 20
+    "id": "tortillas-con-queso",
+    "name": "Tortillas con queso",
+    "description": "Homemade corn tortillas mixed with grated cheese and cooked on a skillet until golden.",
+    "difficulty": "Easy",
+    "minutes": 20,
+    "image": "assets/recipes/tortillas-con-queso.webp",
+    "ingredients": ["1 cup corn masa or tortilla flour", "3/4 cup warm water, approximately", "1/2 cup grated cheese", "1 pinch salt", "oil for greasing the skillet"],
+    "steps": [
+      { "title": "Prepare the dough", "text": "Mix the corn masa or tortilla flour with the salt and grated cheese." },
+      { "title": "Add water", "text": "Gradually add warm water and mix until a soft, manageable dough forms." },
+      { "title": "Shape the tortillas", "text": "Divide the dough into small balls and flatten them into round tortillas." },
+      { "title": "Heat the skillet", "text": "Lightly grease a skillet and heat it over medium heat." },
+      { "title": "Cook the tortillas", "text": "Cook each tortilla on both sides until golden and cooked through." },
+      { "title": "Serve", "text": "Serve hot while the cheese is still soft." }
+    ]
   }
 ]
