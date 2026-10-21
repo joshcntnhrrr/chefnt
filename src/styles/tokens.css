@@ -1,0 +1,29 @@
+:root {
+  /* Colors (sampled from /design) */
+  --color-bg: #071010;
+  --color-surface: #121c1c;
+  --color-text: #c5e3e6;
+  --color-text-muted: #8fa9ac;
+  --color-accent: #e5c93d;
+  --color-accent-ink: #071010;
+  --color-dot: #3a3f3f;
+
+  /* Type */
+  --font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fs-body: 1rem;
+  --fs-title: 1.375rem;
+  --fs-heading: 1.625rem;
+
+  /* Layout */
+  --app-max-width: 430px;
+  --gutter: 26px;
+  --radius-xl: 40px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-page: 380ms;
+}
