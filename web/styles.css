@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* ========== Tokens ========== */
+:root {
+  /* Primitivos (paleta de marca) */
+  --yellow: #e2cb3e;
+  --black-green: #080f0f;
+  --red: #a52422;
+  --cyan: #c3dfe0;
+  --pink: #ffa5ab;
+
+  /* Semánticos (ajústalos a tus alias de Figma) */
+  --color-bg: var(--cyan);
+  --color-text: var(--black-green);
+  --color-accent: var(--yellow);
+  --color-accent-secondary: var(--pink);
+  --color-danger: var(--red);
+
+  /* Espaciado (escala 4/8pt) */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+}
+
+/* ========== Reset mínimo ========== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, sans-serif; /* cámbiala por tu fuente de Figma */
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
